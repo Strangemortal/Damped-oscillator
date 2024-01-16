@@ -16,8 +16,6 @@ This web application provides a visualization of a damped oscillator with an int
 - Adjustable parameters: amplitude, frequency, and damping ratio.
 - Key concepts and mathematical model explained in the right section.
 
-## Installation
 
-1. Clone the repository:
 
 
