@@ -5,10 +5,7 @@ This web application provides a visualization of a damped oscillator with an int
 ## Table of Contents
 
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
