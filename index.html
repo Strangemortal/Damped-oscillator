@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Damped Oscillator Visualization</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-section">
+      <h1>Damped Oscillator Visualization</h1>
+      
+      <label for="amplitude">Amplitude:</label>
+      <input type="number" id="amplitude" value="5">
+      
+      <label for="frequency">Frequency:</label>
+      <input type="number" id="frequency" value="5">
+      
+      <label for="dampingRatio">Damping Ratio:</label>
+      <input type="number" id="dampingRatio" step="0.1" value="0.5">
+
+      <canvas id="oscillatorChart" width="694" height="250"></canvas>
+    </div>
+
+    <div class="right-section">
+      <h2>Key Concepts</h2>
+      <ul>
+        <li>Oscillation: Repetitive and periodic motion of a system about an equilibrium position.</li>
+        <li>Damping: Process of reducing the amplitude of oscillations over time, caused by external forces or resistive elements.</li>
+        <li>Natural Frequency: Frequency at which the system would oscillate without damping forces.</li>
+        <li>Damping Ratio (ζ): Dimensionless parameter influencing the rate of oscillation decay.</li>
+      </ul>
+
+      <h2>Mathematical Model</h2>
+      <h2>Second-Order Linear Homogeneous Differential Equation</h2>
+<p>The given differential equation is:</p>
+<code>
+    m * d<sup>2</sup>x/dt<sup>2</sup> + c * dx/dt + kx = 0
+</code>
+
+<h2>General Solution</h2>
+<p>Now, let's express the general solution in terms of these symbols:</p>
+<code>
+    x(t) = A * e<sup>-βt</sup> * cos(ω<sub>d</sub>t + ϕ)
+</code>
+
+<p>So, the symbolic representation of the solution is:</p>
+<code>
+    x(t) = A * e<sup>-(c / (2m))t</sup> * cos(sqrt(k / m - (c / (2m))<sup>2</sup>) * t + ϕ)
+</code>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
