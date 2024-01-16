@@ -1,18 +1,38 @@
 # Damped Oscillator Visualization
 
-This web application provides a visualization of a damped oscillator with an interactive graph. Users can adjust parameters such as amplitude, frequency, and damping ratio to observe the corresponding changes in the damped oscillator's behavior.
+![Damped Oscillator](demo.gif)
 
 ## Table of Contents
 
+- [Description](#description)
+- [Demo](#demo)
 - [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Adjusting Parameters](#adjusting-parameters)
+- [Contributing](#contributing)
+- [Issues](#issues)
+- [License](#license)
 
+## Description
+
+This web application provides an interactive visualization of a damped oscillator. Users can dynamically adjust parameters such as amplitude, frequency, and damping ratio to observe the real-time changes in the behavior of the damped oscillator.
+
+## Demo
+
+![Demo Gif](demo.gif)
+
+[Watch Demo Video](#) (Replace # with your demo video link)
 
 ## Features
 
-- Interactive graph showing the motion of a damped oscillator.
-- Adjustable parameters: amplitude, frequency, and damping ratio.
-- Key concepts and mathematical model explained in the right section.
+- **Interactive Graph:** Real-time visualization of the damped oscillator's motion.
+- **Adjustable Parameters:** Control amplitude, frequency, and damping ratio.
+- **Educational Content:** Key concepts and mathematical model explained in the right section.
 
+## Installation
 
+1. Clone the repository:
 
-
+   ```bash
+   git clone https://github.com/Strangemortal/damped-oscillator.git
