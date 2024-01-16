@@ -14,13 +14,11 @@ This web application provides an interactive visualization of a damped oscillato
 2. Adjust the input values for amplitude, frequency, and damping ratio.
 3. Observe the real-time changes in the damped oscillator graph.
 
-## Contributing
 
-Contributions are welcome! If you have any suggestions, improvements, or issues, please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Issues
 
-If you encounter any issues or have suggestions for improvement, please [open an issue](https://github.com/your-username/damped-oscillator/issues).
+If you encounter any issues or have suggestions for improvement, please [open an issue](https://github.com/Strangemortal/Damped-oscillator/issues).
 
 ## License
 
